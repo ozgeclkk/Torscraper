@@ -1,7 +1,8 @@
 Tor Onion Scraper (CTI Tool)
 
 Bu proje, Siber Tehdit İstihbaratı (CTI) süreçlerinde veri toplama (Collection) aşamasını otomatize etmek için geliştirilmiş bir araçtır. Go (Golang) dili kullanılarak hazırlanan bu uygulama, toplu bir hedef listesindeki .onion uzantılı adresleri Tor ağı üzerinden anonim olarak tarar ve içeriklerini yerel olarak saklar.
-🚀 Temel Özellikler
+
+Temel Özellikler
 
     Anonimlik: Tüm trafik SOCKS5 (Tor) üzerinden yönlendirilir, gerçek IP adresi gizlenir.
 
@@ -11,7 +12,7 @@ Bu proje, Siber Tehdit İstihbaratı (CTI) süreçlerinde veri toplama (Collecti
 
     Veri Seti Oluşturma: Başarılı taramalar outputs/ klasörüne HTML formatında kaydedilir.
 
-🛠️ Kurulum ve Gereksinimler
+Kurulum ve Gereksinimler
 
 Programın çalışması için bilgisayarınızda Tor Browser'ın açık olması veya arka planda bir Tor Servisi'nin çalışıyor olması gerekmektedir.
 
@@ -22,7 +23,7 @@ Programın çalışması için bilgisayarınızda Tor Browser'ın açık olması
 
     Hedef Listesini Düzenleyin: targets.yaml dosyasına taramak istediğiniz .onion adreslerini her satıra bir tane gelecek şekilde ekleyin.
 
-💻 Kullanım
+Kullanım
 
 Uygulamayı çalıştırmak için terminale şu komutu yazın:
 Bash
@@ -35,7 +36,7 @@ Bash
 go build -o cti_scraper.exe main.go
 ./cti_scraper.exe
 
-📂 Çıktılar
+Çıktılar
 
     outputs/: Tarama sonucunda elde edilen sitelerin HTML kaynak kodları.
 
